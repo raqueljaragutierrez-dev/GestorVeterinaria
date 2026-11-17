@@ -1,7 +1,10 @@
+//este archivo contiene la informacion q VetCare necesita para llenar incialmente el catalogo
+//data almacena los datos que necesita la aplicacion
 import '../models/producto.dart'; //importa la clase producto
 
 //datos locales, informacion para mostrar
 final List<Producto> productosIniciales = [
+  //declaracion d la lista
   //crea una lista q contiene objetos d tipo Producto
   Producto(
     id: 1,

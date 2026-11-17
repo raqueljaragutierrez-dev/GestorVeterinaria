@@ -1,5 +1,6 @@
 class Producto {
-  final int id;
+  //clase llamada producto, establece q informacion debe tener cada producto o servicio
+  final int id; //final significa una vez asignado un valor no se puede volver a cambiar en ese objeto
   final String nombre;
   final String descripcion;
   final double precio;
@@ -8,6 +9,7 @@ class Producto {
   final String imagen;
 
   Producto({
+    //el constructor crea los objetos d la clase, q es un producto concreto creado utilizando ese molde
     required this.id,
     required this.nombre,
     required this.descripcion,
